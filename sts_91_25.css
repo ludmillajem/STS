@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(6, 31, 6);
+    align-items: center;
+    margin: 0 auto;
+}
+
+img.image-1{
+    position: relative;
+    width: 95%;
+    left: 23px;
+    object-fit: scale-down;
+    background-position: center;
+    background-size: cover;
+    opacity: 70%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+h2{
+    position: absolute;
+    font-size: 100px;
+    top: 20%;
+    left: 7.5%;
+    font-family: "Flat Earth Scribe";
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(6, 31, 6);
+    text-align: center;
+}
+p.name{
+    font-family: Typewriter;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+}
+@font-face {
+    font-family: "Kinetika Ultra";
+    src: url(Kastelov\ -\ Kinetika\ Ultra.otf);
+}
+@font-face {
+    font-family: "Typewriter Thin";
+    src: url(JMH\ Typewriter-Thin.otf);
+}
+@font-face {
+    font-family: Typewriter;
+    src: url(JMH\ Typewriter.otf);
+}
+@font-face {
+    font-family: "Flat Earth Scribe";
+    src: url(Flat\ Earth\ Scribe.ttf);
+}
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+   
+   .google-maps-link {
+    margin-left: 30px;
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 25px;
+
+   }
+   h1{
+    background-color: rgb(38, 94, 38);
+    border-radius: 10px;
+    background-size: 10px;
+    padding: 13px;
+    color: white;
+    font-family: "Typewriter Thin";
+    font-size: 21px;
+    opacity: 100%;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-indent: 20px;
+   }
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+   .image-2{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+   }
+   p.text-1{
+    background-color: rgb(38, 94, 38);
+    border-radius: 10px;
+    background-size: 10px;
+    padding: 13px;
+    color: white;
+    font-family: "Typewriter Thin";
+    font-size: 21px;
+    opacity: 100%;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: -7px;
+    text-indent: 20px;
+   }
+
+.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center
+   }
+   .image-3{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    margin-top: -20px;
+   }
+   p.text-2{
+    background-color: rgb(38, 94, 38);
+    border-radius: 10px;
+    background-size: 10px;
+    padding: 13px;
+    color: white;
+    font-family: "Typewriter Thin";
+    font-size: 21px;
+    opacity: 100%;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: -7px;
+    text-indent: 20px;
+   }
+p.text-3{
+    background-color: rgb(38, 94, 38);
+    border-radius: 10px;
+    background-size: 10px;
+    padding: 13px;
+    color: white;
+    font-family: "Typewriter Thin";
+    font-size: 21px;
+    opacity: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -7px;
+    text-indent: 20px;
+}
